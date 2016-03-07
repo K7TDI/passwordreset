@@ -6,4 +6,4 @@ sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc)
 sudo apt-get update
 sudo apt-get install chntpw
 sudo apt-get install expect
-sudo chntpw /media/windoze/Windows/System32/config/SAM
+sudo chntpw -i /media/windoze/Windows/System32/config/SAM
